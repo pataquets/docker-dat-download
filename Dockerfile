@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM pataquets/dat-node
 
 RUN npm install -g dat-download
 
